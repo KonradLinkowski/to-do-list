@@ -1,8 +1,10 @@
 # to-do-list
+```
+Classic ToDoList
 
-Classic ToDoList. Fetching data from {JSON} Placeholder - the fake Online REST API
+Fetching data from {JSON} Placeholder - the fake Online REST API
 
-https://jsonplaceholder.typicode.com/
+```
 
 ## Quick Start
 
