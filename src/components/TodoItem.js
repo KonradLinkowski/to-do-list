@@ -15,7 +15,7 @@ export class TodoItem extends Component {
   cursorPointer = () => {
     return {
       cursor: 'pointer',
-      marginRight: '10px'
+      marginRight: '10px',
     }
   }
 
@@ -30,7 +30,7 @@ export class TodoItem extends Component {
         <p>
           <input type="checkbox" style={this.cursorPointer()} onChange={this.props.markComplete.bind(this, id)}/>
           { title }
-          <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}>X</button>
+          <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}>Remove</button>
         </p>
       </div>
     )
@@ -49,8 +49,8 @@ const btnStyle = {
   color: '#fff',
   border: 'none',
   padding: '5px 9px',
-  borderRadius: '50%',
   cursor: 'pointer',
+  borderRadius: '5px',
   float: 'right'
 }
 

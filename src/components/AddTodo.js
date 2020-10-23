@@ -25,21 +25,17 @@ export default class AddTodo extends Component {
         <input
         type="text"
         name="title"
-        style={{ flex: '10', padding: '5px' }}
+        style={{ flex: '10', padding: '3px'}}
         placeholder="AddTodo ..."
         value={this.state.title}
         onChange={this.onChange}
-        />
-
-        <div
-        style={{ width: '10px', height: '10px', backgroundColor: 'red', top: '0', margin: '10px'}}
         />
 
         <input
         type="submit"
         value="Submit"
         className="btn"
-        style={{ flex: '1' }}
+        style={{ flex: '1', marginLeft: '5px', borderRadius: '3px'}}
         />
       </form>
     )
