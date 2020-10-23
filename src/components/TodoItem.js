@@ -7,14 +7,15 @@ export class TodoItem extends Component {
     return {
       background: '#f4f4f4',
       padding: '10px',
-      borderBottom: '1px #ccc dotted',
-      textDecoration: this.props.todo.completed ? 'line-through' : 'none'
+      borderBottom: '1px #ccc',
+      textDecoration: this.props.todo.completed ? 'line-through' : 'none',
     }
   }
 
   cursorPointer = () => {
     return {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      marginRight: '10px'
     }
   }
 
@@ -27,7 +28,7 @@ export class TodoItem extends Component {
     return (
       <div style={this.getStyle()}>
         <p>
-          <input type="checkbox" style={this.cursorPointer()} onChange={this.props.markComplete.bind(this, id)} /> {' '}
+          <input type="checkbox" style={this.cursorPointer()} onChange={this.props.markComplete.bind(this, id)}/>
           { title }
           <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}>X</button>
         </p>

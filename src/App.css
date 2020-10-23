@@ -14,8 +14,16 @@ a {
   text-decoration: none;
 }
 
+.white:hover {
+  color: white !important;
+}
+
+.change:first-of-type {
+  margin-bottom: 10px;
+}
+
 .container {
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .btn {

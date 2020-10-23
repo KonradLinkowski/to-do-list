@@ -5,7 +5,7 @@ function Header() {
   return (
     <header style={headerStyle}>
       <h1>TodoList</h1>
-      <Link style={linkStyle} to="/">Home</Link> | <Link style={linkStyle} to="/about">About</Link>
+      <Link style={linkStyle} to="/" className="white">Home</Link> | <Link style={linkStyle} to="/about" className="white">About</Link>
     </header>
   )
 }
@@ -16,7 +16,6 @@ const headerStyle = {
   textAlign: 'center',
   padding: '10px',
   marginBottom: '10px',
-  marginTop: '10px'
 }
 
 const linkStyle = {
