@@ -26,7 +26,7 @@ export default class AddTodo extends Component {
         type="text"
         name="title"
         style={{ flex: '10', padding: '3px'}}
-        placeholder="AddTodo ..."
+        placeholder="Write new todo"
         value={this.state.title}
         onChange={this.onChange}
         />
