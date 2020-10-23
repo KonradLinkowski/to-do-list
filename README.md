@@ -1,5 +1,9 @@
 # to-do-list
+```
+Classic ToDoList
 
+Fetching data from {JSON} Placeholder - the fake Online REST API
+```
 ## Quick Start
 
 ```bash
